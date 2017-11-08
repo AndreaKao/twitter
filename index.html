@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<link rel="stylesheet" type="text/css" href="asset/js/app.js">
+	<link rel="stylesheet" href="icomoon/style.css">
+</head>
+<body>
+	<!-- Sección Header -->
+	<header>
+		<div class="fondo-background">
+			<img src="asset/img/montanas.jpg">
+		</div>
+	</header>
+	<!-- Sección Cabezera-->
+	<section>
+		<nav class="headboard">	
+			<div class="menu">
+				<ul>
+					<li><button type="button" id="buttonstart" onclick="add()"><i class="fa fa-plus" aria-hidden="true">
+						<span class="icon-social-twitter-circular"></span></i><strong> Inicio </strong></button> </li>
+					<li><button type="button" id="buttonstart" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i><strong>Sobre nosotros</strong></button></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+	<!-- Sección Bienvenida-->
+	<section>
+		<div class="welcome">
+			<h1>Bienvenido a Twitter</h1>
+			<p><strong>Conéctate con tus amigos y otras personas fascinantes. Obtén actualizaciones instantáneas de las cosas que te interesan. Mira los eventos que se están desarrollando, en tiempo real, desde todos los ángulos.</strong></p>
+		</div>
+	</section>
+	<!-- Sección Formulario-->
+	<section>
+		<div class="grandForm">
+			<div class="form">
+				<textarea class="txt" id="newTweet" placeholder="Publicar un nuevo Tweet..."></textarea>
+			</div>
+			<div class="form2">
+				<button type="button" id="btn"><i class="fa fa-plus" aria-hidden="true"></i><p> Tweet</p></button>
+			</div>
+			<div class="form3">
+				<p><span id="indicator" style="font-weight: bold;">140</span></p>
+			</div>
+			<div class="comentario"	id="comment"></div>
+		</div>
+	</section>
+	<!-- Script Files -->
+	<script type="text/javascript" src="font-awesome-4.7.0"></script>
+	<script type="text/javascript" src="asset/js/app.js"></script>
+</body>
+</html>

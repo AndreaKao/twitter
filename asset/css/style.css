@@ -1,0 +1,151 @@
+/* Instrucciones a toda la estructura */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Sans-Serif;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Sección Header */
+img {
+	height: 700px;
+	width: 100%;
+}
+
+/* Sección cabezara */
+.headboard {
+	height: 47px;
+	width: 100%;
+	background: #fff;
+	margin-top: -705px;
+	margin-left: 0;
+	position: relative;
+}
+
+.menu ul {
+	margin-left: 85px;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.menu ul li button {
+	color: #66757F;
+	width: 120px;
+	height: 30px;
+}
+
+.menu button {
+	background-color: #fff;
+	border: none;
+}
+
+.menu button:hover {
+ 	box-shadow: 0 0 0 3px #1DA1F2;
+ 	border-radius: 5px;
+}
+
+.icon-social-twitter-circular:before {
+  	content: "\e932";
+}
+
+/* Sección bienvenida */
+.welcome {
+	height: 222px;
+	width: 500px;
+	color: #fff;
+	margin-top: 80px;
+	margin-left: 200px;
+	display: block;
+}
+
+.welcome h1 {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.welcome p {
+	font-size: 17px;
+	font-weight: 10px;
+	line-height: 25px;
+}
+
+/* Sección formulario */
+.grandForm {
+	height: 50px;
+	width: 450px;
+	background: #fff;
+}
+
+.form {
+	margin-top: -210px;
+	margin-left: 730px;
+}
+
+.form textarea {
+	height: 200px;
+	width: 450px;
+}
+
+.form2 {
+	background: #fff;
+	height: 50px;
+	width: 450px;
+	margin-left: 730px;
+	display: inline-block;
+}
+
+.form2 button {
+	background: #1DA1F2;
+	height: 40px;
+	width: auto;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.form2 button p {
+	color: #fff;
+	width: 80px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.form3 {
+	font-size: 17px;
+	margin-top: -35px;
+	margin-left: 1130px;
+}
+/*
+.form3 .aviso {
+	height: 60px;
+	width: 1000px;
+	line-height: 35px;
+	background: #fff;
+	margin-top: 40px;
+	margin-left: -950px;
+	border-radius: 5px;
+}
+*/
+
+.comentario #comment {
+	height: 60px;
+	width: 1000px;
+	line-height: 35px;
+	background: #fff;
+	margin-top: 40px;
+	margin-left: -950px;
+	border-radius: 5px;
+	display: block;
+}
