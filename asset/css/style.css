@@ -66,8 +66,8 @@ img {
 	width: 500px;
 	color: #fff;
 	margin-top: 80px;
-	margin-left: 200px;
-	display: block;
+	margin-left: 150px;
+	display: inline-block;
 }
 
 .welcome h1 {
@@ -81,71 +81,71 @@ img {
 	line-height: 25px;
 }
 
-/* Sección formulario */
-.grandForm {
-	height: 50px;
-	width: 450px;
-	background: #fff;
-}
+/* Seccion Formulario */
 
 .form {
-	margin-top: -210px;
-	margin-left: 730px;
-}
-
-.form textarea {
-	height: 200px;
-	width: 450px;
-}
-
-.form2 {
-	background: #fff;
-	height: 50px;
-	width: 450px;
-	margin-left: 730px;
-	display: inline-block;
-}
-
-.form2 button {
-	background: #1DA1F2;
-	height: 40px;
-	width: auto;
-	margin-top: 5px;
-	margin-left: 20px;
-	display: inline-block;
-}
-
-.form2 button p {
-	color: #fff;
-	width: 80px;
-	font-size: 20px;
 	text-align: center;
+	height: 190px;
+	width: 400px;
+	background: #fff;
+	margin-top: -920px;
+	margin-left: 650px;
+	display: inline-block;
 }
 
-.form3 {
-	font-size: 17px;
-	margin-top: -35px;
-	margin-left: 1130px;
-}
-/*
-.form3 .aviso {
-	height: 60px;
-	width: 1000px;
-	line-height: 35px;
-	background: #fff;
-	margin-top: 40px;
-	margin-left: -950px;
-	border-radius: 5px;
-}
-*/
+.txt {
+	height: 150px;
+	width: 300px;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	border-bottom: 3px solid #006DBF;
+	padding: 7px;
+	resize: none;
+	overflow: auto;
 
-.comentario #comment {
-	height: 60px;
-	width: 1000px;
-	line-height: 35px;
+}
+
+#btn {
+	color: #fff;
+	background: #1DA1F2;
+	border: 5px;
+	height: 30px;
+	width: 60px;
+	margin-top: 0;
+	margin-left: 230px;
+	display: inline block;
+
+}
+
+#indicator {
+	color: #1DA1F2;
+	margin-top: -30px;
+	margin-right: 325px;
+	padding-left: 10px;
+	float: right;
+}
+
+.comentario div {
+	height: auto;
+	width: 900px;
 	background: #fff;
-	margin-top: 40px;
-	margin-left: -950px;
+	margin-top: 10px;
+	margin-left: 150px;
 	border-radius: 5px;
-	display: block;
+	display: inline-block;
+}
+
+.comentario div p {
+	word-break: break-word;
+	padding: 5px;
+}
+
+#green {
+	color: green;
+}
+
+
+#red {
+	color: red;
 }

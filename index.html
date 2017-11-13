@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Twitter</title>
 	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
-	<link rel="stylesheet" type="text/css" href="asset/js/app.js">
-	<link rel="stylesheet" href="icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<!-- Sección Header -->
@@ -19,9 +18,9 @@
 		<nav class="headboard">	
 			<div class="menu">
 				<ul>
-					<li><button type="button" id="buttonstart" onclick="add()"><i class="fa fa-plus" aria-hidden="true">
+					<li><button type="button" id="buttonstart1"><i class="fa fa-plus" aria-hidden="true">
 						<span class="icon-social-twitter-circular"></span></i><strong> Inicio </strong></button> </li>
-					<li><button type="button" id="buttonstart" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i><strong>Sobre nosotros</strong></button></li>
+					<li><button type="button" id="buttonstart2"><i class="fa fa-plus" aria-hidden="true"></i><strong>Sobre nosotros</strong></button></li>
 				</ul>
 			</div>
 		</nav>
@@ -35,21 +34,18 @@
 	</section>
 	<!-- Sección Formulario-->
 	<section>
-		<div class="grandForm">
-			<div class="form">
-				<textarea class="txt" id="newTweet" placeholder="Publicar un nuevo Tweet..."></textarea>
-			</div>
-			<div class="form2">
-				<button type="button" id="btn"><i class="fa fa-plus" aria-hidden="true"></i><p> Tweet</p></button>
-			</div>
-			<div class="form3">
-				<p><span id="indicator" style="font-weight: bold;">140</span></p>
-			</div>
-			<div class="comentario"	id="comment"></div>
+		<div class="form">
+			<textarea name="msg" class="txt" id="newTweet" colls="30" rows="10" onkeyup="textAreaAdjust(this)" placeholder="Publicar un nuevo Tweet..."></textarea>
+			
+			<button type="button" id="btn" onclick="otherTweet()"><p> Tweet</p></button>
+			<p id="indicator"><span>140</span></p>
 		</div>
 	</section>
+
+	<section class="comentario"	id="comment">
+	</section>
+
 	<!-- Script Files -->
-	<script type="text/javascript" src="font-awesome-4.7.0"></script>
-	<script type="text/javascript" src="asset/js/app.js"></script>
+	<script src="asset/js/app.js"></script>
 </body>
 </html>
